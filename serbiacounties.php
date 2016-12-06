@@ -10,40 +10,42 @@
  *   - list of states/provinces with abbreviation,
  *   - list of states/provinces to rename,
  */
-function nicaraguadepartmentos_stateConfig() {
+function serbiacounties_stateConfig() {
   $config = array(
     // CAUTION: only use `overwrite` on fresh databases.
     'overwrite' => TRUE,
-    'countryIso' => 'NI',
+    'countryIso' => 'RS',
     'states' => array(
       // 'state name' => 'abbreviation',
-      'AGADIR IDA OU TANAN' => 'AGD',
-      'Nueva Segovia' => '1',
-      'Madriz' => '2',
-      'Estelí' => '3',
-      'Chinandega' => '4',
-      'León' => '5',
-      'Managua' => '6',
-      'Masaya' => '7',
-      'Carazo' => '8',
-      'Granada' => '9',
-      'Rivas' => '10',
-      'Chontales' => '11',
-      'Boaco' => '12',
-      'Matagalpa' => '13',
-      'Jinotega' => '14',
-      'RAAN' => '15',
-      'RAAS' => '16',
-      'Río San Juan' => '17',
-      
+      'Beograd' => '1',
+      'Severnobački upravni okrug' => '2',
+      'Srednjobanatski upravni okrug' => '3',
+      'Severnobanatski upravni okrug' => '4',
+      'Južnobanatski upravni okrug' => '5',
+      'Zapadnobački uprvni okrug' => '6',
+      'Južnobački upravni okrug' => '7',
+      'Sremski upravni okrug' => '8',
+      'Mačvanski upravni okrug' => '9',
+      'Kolubarski upravni okrug' => '10',
+      'Zlatiborski upravni okrug' => '11',
+      'Podunavski upravni okrug' => '12',
+      'Šumadijski upravni okrug' => '13',
+      'Pomoravski upravni okrug' => '14',
+      'Moravički upravni okrug' => '15',
+      'Raški upravni okrug' => '16',
+      'Rasinski upravni okrug' => '17',
+      'Braničevski upravni okrug' => '18',
+      'Borski upravni okrug' => '19',
+      'Zaječarski upravni okrug' => '20',
+      'Nišavski upravni okrug' => '21',
+      'Toplički upravni okrug' => '22',
+      'Pirotski upravni okrug' => '23',
+      'Jablanički upravni okrug' => '24',
+      'Pčinjski upravni okrug' => '25',
     ),
     'rewrites' => array(
       // List states to rewrite in the format:
       // 'Default State Name' => 'Corrected State Name',
-      'Esteli' => 'Estelí',
-      'Leon' => 'León',
-      'Rio San Juan' => 'Río San Juan'
-      
     ),
   );
   return $config;
