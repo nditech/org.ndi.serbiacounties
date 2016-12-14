@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <extension key="org.ndi.serbiacounties" type="module">
-  <file>serbiacountiess</file>
+  <file>serbiacounties</file>
   <description>Loads counties (states) of Serbia</description>
   <name>Serbia County Loader</name>
   <license>AGPL-3.0</license>

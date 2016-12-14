@@ -204,5 +204,5 @@ function serbiacounties_civicrm_enable() {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_upgrade
  */
 function serbiacounties_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
-  serbiacountiess_loadProvinces();
+  serbiacounties_loadProvinces();
 }
